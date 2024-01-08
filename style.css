@@ -1,8 +1,12 @@
 body{
-    padding: 0px;
-    margin: 0px;
+    padding: 0pxz;
+    margin: 0rem;
     height: 99vh;
     background-color: rgb(17, 17, 17);
+}
+
+img, button{
+    cursor: pointer;
 }
 
 .container{
@@ -14,23 +18,23 @@ body{
 }
 
 .container .logo{
-    width: 200px;
-    height: 85px;
-    margin: 0px 0px 30px 0px;
+    width: 12.5rem;
+    height: 5.3125rem;
+    margin: 0rem 0rem 1.875rem 0rem;
 }
 
 .container h1{
     color: rgb(240, 239, 239);
-    font-size: 29px;
-    margin: 10px 0px 0px 0px;
+    font-size: 1.8125rem;
+    margin: .625rem 0rem 0rem 0rem;
 }
 
 
 .container section{
     color: white;
     display: flex;
-    max-width: 700px;
-    width: 700px;
+    max-width: 43.75rem;
+    width: 43.75rem;
     justify-content: space-around;
 }
 
@@ -38,40 +42,41 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px 15px 0px 15px;
+    margin: 0rem .9375rem 0rem .9375rem;
 }
 
 .container div img{
-    width: 160px;
-    height: 160px;
-    border-radius: 10px;
-    border: 2px solid rgb(17, 17, 17);
+    width: 10rem;
+    height: 10rem;
+    border-radius: .625rem;
+    border: .125rem solid rgb(17, 17, 17);
     background-color: rgb(53, 53, 53);
+    margin-bottom: .5rem;
 }
 
 .container div img:hover{
-    border: 2px solid;
+    border: .125rem solid;
     border-color: rgb(211, 210, 210);
-    transition: 0.5s
+    transition: 0.5s ease-in-out
 }
 
 .container div p{
     color: rgb(211, 210, 210);
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .container button{
     color: rgb(211, 210, 210);
     background-color: transparent;
-    border-radius: 9px;    
+    border-radius: .5625rem;    
     border-color: rgb(211, 210, 210);
-    font-size: 15px;
-    width: 170px;
-    height: 38px;
+    font-size: .9375rem;
+    width: 10.625rem;
+    height: 2.375rem;
 }
 
 .container button:hover{
     background-color: rgb(211, 210, 210);
     color: black;
-    transition: 0.5s    
+    transition: 0.5s ease-in-out    
 }
